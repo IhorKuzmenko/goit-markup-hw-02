@@ -1,0 +1,222 @@
+/*VARIABLES*/
+:root{
+    --white-color: #FFFFFF;
+    --blue-color: #2196F3;
+    --black-color: #000000;
+    --gray-color: #212121;
+    --dark-gray-color: #2F303A;
+    --light-gray-color: #757575;
+    --main-font: 'Roboto', sans-serif;
+    --accent-font: 'Raleway', sans-serif;
+}
+
+body{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    color: var(--light-gray-color);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*HEADER SECTION*/
+
+.logotype{
+    color: var(--black-color);
+    font-family: var(--accent-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo{
+    color: var(--blue-color);
+}
+
+a{
+    color: inherit;
+}
+
+.navlist a{
+    color: var(--gray-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navlist a:hover{
+    color: var(--blue-color)
+}
+
+.navlist a:focus{
+    color: var(--blue-color)
+}
+
+.navlist .contactsHeader{
+    color: var(--light-gray-color);
+}
+
+.active{
+    color: var(--blue-color);
+}
+
+/*MAIN SECTION*/
+
+.header{
+    background-color: var(--dark-gray-color);
+}
+
+h1{
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button{
+    cursor: pointer;
+    background-color: var(--blue-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.85;
+    font-family: inherit;
+}
+
+/*ADVANTAGES SECTION*/
+
+.benefit{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--gray-color);
+}
+
+.benefitDescription{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--light-gray-color);
+}
+
+/*WHAT_WE_ARE_DOING SECTION*/
+
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+}
+
+/*OUR TEAM SECTION*/
+
+.our_team{
+    background-color: #F5F4FA;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+}
+
+.position{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--light-gray-color);
+}
+
+/*FOOTER SECTION*/
+
+.footer{
+    background-color: var(--dark-gray-color);
+}
+
+.logotypeFooter{
+    font-family: var(--accent-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.address{
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.contacts{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*PORTFOILIO SECTION*/
+
+.button_portfolio{
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button_active{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.name_portfolio{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--gray-color);
+}
+
+.description_portfolio{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--light-gray-color);
+}
+
